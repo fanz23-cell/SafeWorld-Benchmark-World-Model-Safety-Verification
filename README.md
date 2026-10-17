@@ -6,6 +6,20 @@ This repository builds the benchmark and experiments around the SafeWorld method
 
 Our contribution here is the benchmark and its experimental realization: task design and grounding, trajectory and dataset generation, world-model training, and verifier/baseline integration. The mathematical verification method is advisor-led work. This repository should be read as research infrastructure and a pilot study, not as a claim that every specification has a complete formal proof or final paper-scale evaluation.
 
+## Visual overview
+
+The first diagram summarizes the benchmark and Goal2 pilot pipeline implemented in this repository. The second is a conceptual redraw of the overview described in the available VeriWorld method-draft caption. Original paper figure files are not included in this checkout, so the method diagram intentionally stays at the caption's level and does not assign specific guarantees to individual certificate layers.
+
+<p align="center">
+  <img src="docs/figures/benchmark-pipeline.svg" alt="SafeWorld benchmark and Goal2 pilot pipeline" width="100%">
+</p>
+<p align="center"><em>Benchmark and evaluation pipeline: temporal tasks are grounded in simulation, collected trajectories support the Goal2 RSSM pilot, and supported signals are evaluated with the available verifier and action-level baselines.</em></p>
+
+<p align="center">
+  <img src="docs/figures/method-overview.svg" alt="Conceptual overview of certificate-based temporal verification" width="100%">
+</p>
+<p align="center"><em>Conceptual method overview redrawn from the current draft caption; it is not the original paper artwork.</em></p>
+
 ## What the benchmark asks
 
 Instead of measuring only reward or task completion, the benchmark asks whether an embodied agent's behavior follows rules over time. Example requirements include:

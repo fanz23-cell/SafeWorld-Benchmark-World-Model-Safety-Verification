@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 570" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual overview of certificate-based temporal verification</title>
+  <desc id="desc">A resettable generative world model and a temporal specification enter a class-based router. The router selects among three sufficient certificate layers according to the certificate class or witness structure. Each layer returns a scoped guarantee if its premises pass, otherwise it abstains.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#64748b"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #475569; }
+      .heading { font: 700 19px Arial, sans-serif; fill: #0f172a; }
+      .body { font: 400 15px Arial, sans-serif; fill: #334155; }
+      .small { font: 400 13px Arial, sans-serif; fill: #475569; }
+    </style>
+  </defs>
+  <rect width="1400" height="570" rx="24" fill="#f8fafc"/>
+  <text class="title" x="48" y="56">Certificate-based temporal verification</text>
+  <text class="subtitle" x="48" y="84">Conceptual redraw of the current method-draft overview caption</text>
+
+  <rect x="48" y="152" width="255" height="92" rx="16" fill="#fff" stroke="#93c5fd" stroke-width="2"/>
+  <text class="heading" x="72" y="188">Resettable generative</text>
+  <text class="heading" x="72" y="214">world model</text>
+  <rect x="48" y="272" width="255" height="92" rx="16" fill="#fff" stroke="#c4b5fd" stroke-width="2"/>
+  <text class="heading" x="72" y="308">Temporal</text>
+  <text class="heading" x="72" y="334">specification</text>
+
+  <path d="M308 198 H352 M308 318 H330 V274 H352" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="364" y="180" width="248" height="174" rx="18" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <text class="heading" x="390" y="220">Class-based router</text>
+  <text class="body" x="390" y="252"><tspan x="390" dy="0">Routes by certificate class</tspan><tspan x="390" dy="23">and witness structure, not</tspan><tspan x="390" dy="23">by topological complexity.</tspan></text>
+
+  <path d="M618 266 H646 V165 H674 M646 266 V278 H674 M646 266 V391 H674" fill="none" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="686" y="126" width="270" height="78" rx="14" fill="#fff" stroke="#bfdbfe" stroke-width="2"/>
+  <text class="heading" x="710" y="160">Certificate layer 1</text>
+  <text class="small" x="710" y="184">Sufficient evidence for its property class</text>
+  <rect x="686" y="239" width="270" height="78" rx="14" fill="#fff" stroke="#c4b5fd" stroke-width="2"/>
+  <text class="heading" x="710" y="273">Certificate layer 2</text>
+  <text class="small" x="710" y="297">Sufficient evidence for its property class</text>
+  <rect x="686" y="352" width="270" height="78" rx="14" fill="#fff" stroke="#a7f3d0" stroke-width="2"/>
+  <text class="heading" x="710" y="386">Certificate layer 3</text>
+  <text class="small" x="710" y="410">Sufficient evidence for its property class</text>
+
+  <path d="M962 165 H1002 V244 H1034 M962 278 H1034 M962 391 H1002 V310 H1034" fill="none" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="1046" y="177" width="306" height="178" rx="18" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/>
+  <text class="heading" x="1072" y="216">Scoped guarantee</text>
+  <text class="body" x="1072" y="250"><tspan x="1072" dy="0">Depending on the route:</tspan><tspan x="1072" dy="24">deterministic margin, deductive</tspan><tspan x="1072" dy="24">warrant, or probabilistic warrant.</tspan></text>
+  <rect x="1046" y="382" width="306" height="78" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text class="heading" x="1072" y="416">Abstain if premises fail</text>
+  <text class="small" x="1072" y="440">No guarantee is issued without checks.</text>
+  <path d="M958 165 H1016 V402 H1034 M958 278 H1022 V402 H1034 M958 391 H1028 V402 H1034" fill="none" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+
+  <rect x="48" y="490" width="1304" height="48" rx="12" fill="#f1f5f9"/>
+  <text class="small" x="68" y="519">The available manuscript includes this overview caption but no original figure artwork. Layer-to-guarantee mapping is omitted in this redraw.</text>
+</svg>
